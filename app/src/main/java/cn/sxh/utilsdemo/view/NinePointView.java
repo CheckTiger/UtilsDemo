@@ -1,4 +1,4 @@
-package cn.sxh.utilsdemo;
+package cn.sxh.utilsdemo.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,6 +13,9 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import cn.sxh.utilsdemo.R;
+
 /**
  * @auther snowTiger
  * @mail SnowTigerSong@gmail.com

@@ -7,7 +7,6 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import cn.sxh.utilsdemo.LockActivity;
 import cn.sxh.utilsdemo.R;
 import cn.sxh.utilsdemo.base.BaseActivity;
 
@@ -58,6 +57,7 @@ public class MainActivity extends BaseActivity {
             case 4:
                 break;
             case 5:
+                startActivity(new Intent(MainActivity.this, MD5Activity.class));
                 break;
         }
     }
