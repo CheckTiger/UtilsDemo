@@ -1,11 +1,13 @@
 package cn.sxh.utilsdemo.activity;
 
+import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
+import cn.sxh.utilsdemo.LockActivity;
 import cn.sxh.utilsdemo.R;
 import cn.sxh.utilsdemo.base.BaseActivity;
 
@@ -45,6 +47,7 @@ public class MainActivity extends BaseActivity {
     private void findID_Item(int i) {
         switch (i) {
             case 0:
+                startActivity(new Intent(MainActivity.this, LockActivity.class));
                 break;
             case 1:
                 break;

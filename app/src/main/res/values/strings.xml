@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">UtilsDemo</string>
     <string-array name="util_list">
-        <item>1.时间管理类</item>
+        <item>1.九宫格解锁屏幕</item>
         <item>2.文件存储类</item>
         <item>3.屏幕像素转化类</item>
         <item>4.安装包信息</item>
@@ -13,5 +13,6 @@
         <item>10.相册管理类</item>
         <item>11.相机调用类</item>
         <item>12.缓存管理类</item>
+        <item>13.时间管理类</item>
     </string-array>
 </resources>
